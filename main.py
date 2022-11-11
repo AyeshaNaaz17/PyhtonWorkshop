@@ -29,8 +29,19 @@ def readsum():
 ##5
 def fact():
     num4 = int(input())
+    if num4 == 0:
+        print(1)
+    else:
+        fact1 = 1
+        for i in range(1, num4+1):
+            fact1 *= i
+        print(fact1)
+
+##6
+
 
 #cube()
 #mul()
 #sumsquare()
-readsum()
+#readsum()
+fact()
